@@ -1,3 +1,10 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/logo-dark.png">
+    <img src="assets/logo-light.png" alt="CodeRED" width="480">
+  </picture>
+</p>
+
 # CodeRED
 
 KTB4 코딩테스트 동아리 **CodeRed**의 공식 풀이 저장소입니다.
