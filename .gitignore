@@ -1,0 +1,113 @@
+# ==================================================
+# CodeRED .gitignore
+# 풀이 코드와 이론 정리(.md)만 올리고, 실행 결과물·개인 환경 파일은 제외합니다.
+# ==================================================
+
+# ---------- OS ----------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# Linux
+*~
+.directory
+.Trash-*
+
+# ---------- 에디터 / IDE ----------
+# VS Code (공유용 설정 파일 없이 전부 제외)
+.vscode/
+*.code-workspace
+# JetBrains (IntelliJ, PyCharm, CLion 등)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+# Eclipse
+.classpath
+.project
+.settings/
+# Vim / Emacs / Sublime
+*.swp
+*.swo
+*.un~
+\#*\#
+.#*
+*.sublime-project
+*.sublime-workspace
+# Fleet / Zed
+.fleet/
+.zed/
+
+# ---------- AI 에이전트 / 코딩 도구 ----------
+.claude/
+.codex/
+.cursor/
+.agents/
+.grok/
+.aider*
+CLAUDE.local.md
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.python-version
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---------- Java / Kotlin ----------
+*.class
+*.jar
+*.war
+build/
+target/
+.gradle/
+.kotlin/
+
+# ---------- C / C++ ----------
+*.o
+*.obj
+*.out
+*.exe
+*.app
+*.dSYM/
+a.out
+cmake-build-*/
+
+# ---------- JavaScript / TypeScript ----------
+node_modules/
+dist/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ---------- Go ----------
+*.test
+
+# ---------- 로그 / 임시 파일 ----------
+*.log
+*.tmp
+*.bak
+tmp/
+temp/
+
+# ---------- 비밀 값 ----------
+.env
+.env.*
+!.env.example
