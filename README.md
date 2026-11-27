@@ -18,6 +18,7 @@ KTB4 코딩테스트 동아리 **CodeRed**의 공식 풀이 저장소입니다.
 | Ezra | 팀원 | `seheon99` |
 | Rain | 팀원 | `rlaekdus75` |
 | Emet | 팀원 | `Sen-Yu` |
+| Luke | 팀원 | `LookImLuke` |
 
 ## 🗓️ 일정
 
